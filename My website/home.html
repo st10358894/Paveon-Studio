@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Paveon Studio - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('images/1 wed.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white; 
+        }
+        header {
+            background-color: rgba(238, 234, 234, 0.8);
+            color: rgb(24, 24, 24);
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: rgba(80, 79, 79, 0.8); 
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        main {
+            padding: 20px;
+            background-color: rgba(244, 244, 244, 0.8); 
+            color: black; 
+        }
+        footer {
+            background-color: rgba(51, 51, 51, 0.8); 
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Paveon Studio</h1>
+        <p>Your story captured through our lens</p>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about-us.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact-us.html">Contact Us</a>
+    </nav>
+    <main>
+        <h2>Welcome to Paveon Studio</h2>
+        <p>Paveon Studio specializes in capturing your most treasured moments. From weddings to corporate events, portraits to landscapes, our photographers are dedicated to telling your story in the most beautiful and artistic way possible.</p>
+        <div class="gallery">
+            <img src="images/1 grad.jpeg" alt="Graduation Photo">
+            <img src="images/1 wed.jpg" alt="Wedding Photo">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Designed by Mulweli. All rights reserved.</p>
+    </footer>
+</body>
+</html>
